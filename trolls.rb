@@ -6,3 +6,12 @@ attack = troll_comment.delete("AEIOUaeiou")
 
 puts attack
 
+
+
+
+
+
+
+
+
+

@@ -1,13 +1,10 @@
 rate_array = [2, 9, 1, 8, 1, 3, 2, 4, 1, 6, 5]
 
-def boring(rate_array)
-    lowest = rate_array.min
-    index = lowest.index
+lowest = rate_array.min
+puts lowest
 
-    new_array = rate_array.reject { |element| element == lowest}
-    puts new_array
-end
+index = rate_array.index(lowest)
+puts index
 
-result = boring(rate_array).to_h
-
-puts ""
+new_array = rate_array.delete_at(1)
+puts new_array
